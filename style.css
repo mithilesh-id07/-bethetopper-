@@ -129,7 +129,7 @@ nav {
     align-items: center;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 690px)
 {
     h1 {
         font-size: 18px;
@@ -137,6 +137,25 @@ nav {
 
     h3 {
         font-size: 30px;
+    }
+
+    .box1, .box2 {
+        width: 175px;
+        height: 100px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 410px)
+{
+    h1 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 25px;
     }
 
     .box1, .box2 {
